@@ -1,0 +1,73 @@
+/* Cor de fundo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7eb5ec; /* Azul acinzentado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilo do container */
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Estilo do timer */
+#timer {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333; /* Cor de texto escuro */
+}
+
+/* Estilo dos botões */
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+/* Hover nos botões */
+.buttons button:hover {
+  background-color: #ddd; /* Cinza claro */
+}
+
+/* Estilo do botão Iniciar */
+#start {
+  background-color: #4CAF50; /* Verde suave */
+  color: white;
+}
+
+/* Estilo do botão Parar */
+#stop {
+  background-color: #f44336; /* Vermelho */
+  color: white;
+}
+
+/* Estilo do botão Resetar */
+#reset {
+  background-color: #2196F3; /* Azul */
+  color: white;
+}
+
+/* Responsividade (ajustar para telas menores) */
+@media (max-width: 600px) {
+  #timer {
+    font-size: 36px;
+  }
+
+  .buttons button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
